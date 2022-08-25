@@ -23,7 +23,7 @@ def restart_program():
     os.execl(python, python, *sys.argv)
 
 # Github
-g = Github("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")
+g = Github("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")
 repo = g.get_user().get_repo("HOBO")
 all_files = []
 try:
